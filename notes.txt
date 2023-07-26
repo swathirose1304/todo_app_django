@@ -1,0 +1,14 @@
+==> Create venv :
+    pip insatll virtualenv
+    virtualenv venv
+    venv\Scripts\Activate
+
+    pip install django
+    django-admin startproject todo_project .
+    python manage.py runserver
+
+     python manage.py migrate
+     python manage.py createsuperuser
+        Username (leave blank to use 'swathi'): 
+        Email address: swathirose1304@gmail.com 
+        Password: 1234
